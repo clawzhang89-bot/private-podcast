@@ -7,7 +7,7 @@
     <language>zh-cn</language>
     <description>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为 GitHub Pages 托管的可订阅测试 feed。</description>
     <generator>podcast-workflow + GitHub Pages</generator>
-    <lastBuildDate>Thu, 26 Mar 2026 09:56:15 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 12:12:44 GMT</lastBuildDate>
     <image>
       <url>https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg</url>
       <title>小宝财经慢听</title>
@@ -25,6 +25,21 @@
       <itunes:name>Evan</itunes:name>
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Agent 不再只是会做事，而是开始变成一条产业链</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-agents-automation-editorial.mp3</link>
+      <description>这一期聊 Agent 赛道的重心变化：从模型能力展示，转向企业集成、开发工具链、系统治理与生态规则竞争。</description>
+      <content:encoded>这一期聊 Agent 赛道的重心变化：从模型能力展示，转向企业集成、开发工具链、系统治理与生态规则竞争。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>这一期聊 Agent 赛道的重心变化：从模型能力展示，转向企业集成、开发工具链、系统治理与生态规则竞争。</itunes:summary>
+      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
+      <itunes:duration>03:35</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 26 Mar 2026 12:12:44 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-26-agents-automation-editorial</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-agents-automation-editorial.mp3" length="1721132" type="audio/mpeg" />
+    </item>
     <item>
       <title>案例 002：几条线一起变，市场判断就不能只看一个故事</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-demo-analysis-002.mp3</link>
