@@ -3,20 +3,30 @@
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Evan Private Podcast</title>
-    <link>https://USERNAME.github.io/private-podcast/</link>
+    <title>小宝财经慢听</title>
+    <link>https://clawzhang89-bot.github.io/private-podcast/</link>
     <language>zh-cn</language>
-    <description>私人订阅播客测试 feed</description>
-    <itunes:author>Evan</itunes:author>
-    <itunes:summary>私人订阅播客测试 feed</itunes:summary>
-    <itunes:explicit>false</itunes:explicit>
+    <description>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为测试 feed。</description>
     <itunes:type>episodic</itunes:type>
+    <itunes:author>Evan</itunes:author>
+    <itunes:summary>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为测试 feed。</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg"/>
+    <itunes:category text="Business">
+      <itunes:category text="Investing"/>
+    </itunes:category>
+    <itunes:owner>
+      <itunes:name>Evan</itunes:name>
+      <itunes:email>noreply@example.com</itunes:email>
+    </itunes:owner>
+    <lastBuildDate>Thu, 26 Mar 2026 10:21:00 +0800</lastBuildDate>
     <item>
-      <title>样例节目</title>
-      <description>占位节目，后续替换为真实音频。</description>
-      <pubDate>Thu, 26 Mar 2026 02:00:00 GMT</pubDate>
-      <guid>sample-episode-1</guid>
-      <enclosure url="https://USERNAME.github.io/private-podcast/episodes/sample.mp3" length="123456" type="audio/mpeg"/>
+      <title>占位节目：等待首期音频</title>
+      <description>这是一个占位条目，用于先打通 GitHub Pages 与 RSS 结构。后续会替换成真实节目。</description>
+      <itunes:summary>这是一个占位条目，用于先打通 GitHub Pages 与 RSS 结构。后续会替换成真实节目。</itunes:summary>
+      <pubDate>Thu, 26 Mar 2026 10:21:00 +0800</pubDate>
+      <guid isPermaLink="false">placeholder-episode-001</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/placeholder.mp3" length="123456" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>
