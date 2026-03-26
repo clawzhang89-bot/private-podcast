@@ -7,7 +7,7 @@
     <language>zh-cn</language>
     <description>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为 GitHub Pages 托管的可订阅测试 feed。</description>
     <generator>podcast-workflow + GitHub Pages</generator>
-    <lastBuildDate>Thu, 26 Mar 2026 14:00:35 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 16:25:22 GMT</lastBuildDate>
     <image>
       <url>https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg</url>
       <title>小宝财经慢听</title>
@@ -25,6 +25,21 @@
       <itunes:name>Evan</itunes:name>
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>具身智能：开放生态会赢，还是封闭系统会赢？</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-27-embodied-intelligence-open-vs-closed.mp3</link>
+      <description>从通用模型、机器人本体、数据闭环和商业化路径几个维度，梳理具身智能开放路线与封闭路线各自的优势、局限与可能的胜负手。</description>
+      <content:encoded>从通用模型、机器人本体、数据闭环和商业化路径几个维度，梳理具身智能开放路线与封闭路线各自的优势、局限与可能的胜负手。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>从通用模型、机器人本体、数据闭环和商业化路径几个维度，梳理具身智能开放路线与封闭路线各自的优势、局限与可能的胜负手。</itunes:summary>
+      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
+      <itunes:duration>05:32</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 26 Mar 2026 16:25:22 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-27-embodied-intelligence-open-vs-closed</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-27-embodied-intelligence-open-vs-closed.mp3" length="2654252" type="audio/mpeg" />
+    </item>
     <item>
       <title>视频生成正在转向系统竞争</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-multimodal-video-generation.mp3</link>
