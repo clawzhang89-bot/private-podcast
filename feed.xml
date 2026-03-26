@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Evan Private Podcast</title>
+    <link>https://USERNAME.github.io/private-podcast/</link>
+    <language>zh-cn</language>
+    <description>私人订阅播客测试 feed</description>
+    <itunes:author>Evan</itunes:author>
+    <itunes:summary>私人订阅播客测试 feed</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <item>
+      <title>样例节目</title>
+      <description>占位节目，后续替换为真实音频。</description>
+      <pubDate>Thu, 26 Mar 2026 02:00:00 GMT</pubDate>
+      <guid>sample-episode-1</guid>
+      <enclosure url="https://USERNAME.github.io/private-podcast/episodes/sample.mp3" length="123456" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
