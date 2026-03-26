@@ -1,16 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:content="http://purl.org/rss/1.0/modules/content/"
-  xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>小宝财经慢听</title>
     <link>https://clawzhang89-bot.github.io/private-podcast/</link>
-    <atom:link href="https://clawzhang89-bot.github.io/private-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://clawzhang89-bot.github.io/private-podcast/feed.xml" rel="self" type="application/rss+xml" />
     <language>zh-cn</language>
     <description>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为 GitHub Pages 托管的可订阅测试 feed。</description>
     <generator>podcast-workflow + GitHub Pages</generator>
-    <lastBuildDate>Thu, 26 Mar 2026 09:05:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 09:56:15 GMT</lastBuildDate>
     <image>
       <url>https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg</url>
       <title>小宝财经慢听</title>
@@ -20,28 +17,42 @@
     <itunes:author>Evan</itunes:author>
     <itunes:summary>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为 GitHub Pages 托管的可订阅测试 feed。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg"/>
+    <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
     <itunes:category text="Business">
-      <itunes:category text="Investing"/>
+      <itunes:category text="Investing" />
     </itunes:category>
     <itunes:owner>
       <itunes:name>Evan</itunes:name>
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
     <item>
+      <title>案例 002：几条线一起变，市场判断就不能只看一个故事</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-demo-analysis-002.mp3</link>
+      <description>第二个 GitHub Pages 播客案例，继续验证纯文本到双人播客到 RSS feed 的完整发布流程。内容围绕油价、高利率与供应链预期的联动。</description>
+      <content:encoded>第二个 GitHub Pages 播客案例，继续验证纯文本到双人播客到 RSS feed 的完整发布流程。内容围绕油价、高利率与供应链预期的联动。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>第二个 GitHub Pages 播客案例，继续验证纯文本到双人播客到 RSS feed 的完整发布流程。内容围绕油价、高利率与供应链预期的联动。</itunes:summary>
+      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 26 Mar 2026 09:56:15 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-26-demo-analysis-002</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-demo-analysis-002.mp3" length="509228" type="audio/mpeg" />
+    </item>
+    <item>
       <title>案例 001：市场不是一个热点在带节奏</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-demo-analysis.mp3</link>
       <description>使用 podcast-workflow 生成的首个双人中文分析型播客案例。内容围绕油价、高利率与供应链预期的联动展开，用于验证 GitHub Pages 加 RSS 加 iPhone Podcast 订阅链路。</description>
-      <content:encoded><![CDATA[使用 podcast-workflow 生成的首个双人中文分析型播客案例。内容围绕油价、高利率与供应链预期的联动展开，用于验证 GitHub Pages + RSS + iPhone Podcast 订阅链路。]]></content:encoded>
+      <content:encoded>使用 podcast-workflow 生成的首个双人中文分析型播客案例。内容围绕油价、高利率与供应链预期的联动展开，用于验证 GitHub Pages + RSS + iPhone Podcast 订阅链路。</content:encoded>
       <itunes:author>Evan</itunes:author>
       <itunes:summary>使用 podcast-workflow 生成的首个双人中文分析型播客案例。内容围绕油价、高利率与供应链预期的联动展开，用于验证 GitHub Pages 加 RSS 加 iPhone Podcast 订阅链路。</itunes:summary>
-      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg"/>
+      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
       <itunes:duration>00:01:47</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
       <pubDate>Thu, 26 Mar 2026 09:05:00 GMT</pubDate>
       <guid isPermaLink="false">2026-03-26-demo-analysis-001</guid>
-      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-demo-analysis.mp3" length="859628" type="audio/mpeg"/>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-demo-analysis.mp3" length="859628" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
