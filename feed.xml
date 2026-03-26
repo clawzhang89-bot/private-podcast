@@ -7,7 +7,7 @@
     <language>zh-cn</language>
     <description>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为 GitHub Pages 托管的可订阅测试 feed。</description>
     <generator>podcast-workflow + GitHub Pages</generator>
-    <lastBuildDate>Thu, 26 Mar 2026 12:12:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 13:23:30 GMT</lastBuildDate>
     <image>
       <url>https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg</url>
       <title>小宝财经慢听</title>
@@ -25,6 +25,21 @@
       <itunes:name>Evan</itunes:name>
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>具身智能正在进入第二阶段：竞争开始从机器人本体转向通用控制模型</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-embodied-intelligence-research.mp3</link>
+      <description>从 OpenVLA、Physical Intelligence、Figure Helix 到 Gemini Robotics，聊聊具身智能为何从机器人本体竞赛转向通用控制模型、世界模型与可部署系统能力。</description>
+      <content:encoded>从 OpenVLA、Physical Intelligence、Figure Helix 到 Gemini Robotics，聊聊具身智能为何从机器人本体竞赛转向通用控制模型、世界模型与可部署系统能力。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>从 OpenVLA、Physical Intelligence、Figure Helix 到 Gemini Robotics，聊聊具身智能为何从机器人本体竞赛转向通用控制模型、世界模型与可部署系统能力。</itunes:summary>
+      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
+      <itunes:duration>03:16</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 26 Mar 2026 13:23:30 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-26-embodied-intelligence-research</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-embodied-intelligence-research.mp3" length="1566764" type="audio/mpeg" />
+    </item>
     <item>
       <title>Agent 不再只是会做事，而是开始变成一条产业链</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-agents-automation-editorial.mp3</link>
