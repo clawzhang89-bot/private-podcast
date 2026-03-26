@@ -7,7 +7,7 @@
     <language>zh-cn</language>
     <description>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为 GitHub Pages 托管的可订阅测试 feed。</description>
     <generator>podcast-workflow + GitHub Pages</generator>
-    <lastBuildDate>Thu, 26 Mar 2026 13:23:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 14:00:35 GMT</lastBuildDate>
     <image>
       <url>https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg</url>
       <title>小宝财经慢听</title>
@@ -25,6 +25,21 @@
       <itunes:name>Evan</itunes:name>
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>视频生成正在转向系统竞争</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-multimodal-video-generation.mp3</link>
+      <description>围绕 Sora、Veo，以及 Runway、Luma、Pika、Seedance 等头部玩家，这期节目讨论视频生成为何正在从单次 demo 竞争转向系统级创作平台竞争。真正决定下一阶段格局的，不只是画面质量，而是音频、控制、角色一致性和工作流入口。</description>
+      <content:encoded>围绕 Sora、Veo，以及 Runway、Luma、Pika、Seedance 等头部玩家，这期节目讨论视频生成为何正在从单次 demo 竞争转向系统级创作平台竞争。真正决定下一阶段格局的，不只是画面质量，而是音频、控制、角色一致性和工作流入口。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>围绕 Sora、Veo，以及 Runway、Luma、Pika、Seedance 等头部玩家，这期节目讨论视频生成为何正在从单次 demo 竞争转向系统级创作平台竞争。真正决定下一阶段格局的，不只是画面质量，而是音频、控制、角色一致性和工作流入口。</itunes:summary>
+      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
+      <itunes:duration>03:18</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 26 Mar 2026 14:00:35 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-26-multimodal-video-generation</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-multimodal-video-generation.mp3" length="1581740" type="audio/mpeg" />
+    </item>
     <item>
       <title>具身智能正在进入第二阶段：竞争开始从机器人本体转向通用控制模型</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-embodied-intelligence-research.mp3</link>
