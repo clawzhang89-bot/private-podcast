@@ -114,5 +114,15 @@
       <guid isPermaLink="false">2026-03-26-demo-analysis-001</guid>
       <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-demo-analysis.mp3" length="859628" type="audio/mpeg" />
     </item>
+  
+    <item>
+      <title>Karpathy autoresearch 与 Claude Skills：单人男声中文解读</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/assets/2026-03-28-karpathy-autoresearch-single-male.mp3</link>
+      <guid>https://clawzhang89-bot.github.io/private-podcast/assets/2026-03-28-karpathy-autoresearch-single-male.mp3</guid>
+      <pubDate>Sat, 28 Mar 2026 07:22:06 GMT</pubDate>
+      <description>基于两篇围绕 Karpathy autoresearch 方法与 Claude Skills 的内容，整理成尽量少改动、适合收听的单人男声中文音频。</description>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/assets/2026-03-28-karpathy-autoresearch-single-male.mp3" length="1767789" type="audio/mpeg" />
+    </item>
+
   </channel>
 </rss>
