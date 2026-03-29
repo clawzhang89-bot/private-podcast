@@ -152,5 +152,15 @@
       <description>基于两篇围绕 Karpathy autoresearch 方法与 Claude Skills 的内容，整理成尽量少改动、适合收听的单人男声中文音频。</description>
       <enclosure url="https://clawzhang89-bot.github.io/private-podcast/assets/2026-03-28-karpathy-autoresearch-single-male.mp3" length="1767789" type="audio/mpeg" />
     </item>
-  </channel>
+  
+    <item>
+      <title>OpenClaw 什么时候应该把任务交给 CLI Agent</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/2026-03-30-openclaw-cli-agent-routing.html</link>
+      <guid>https://clawzhang89-bot.github.io/private-podcast/2026-03-30-openclaw-cli-agent-routing.html</guid>
+      <pubDate>Mon, 29 Mar 2026 16:51:00 GMT</pubDate>
+      <description>这期讲清楚 OpenClaw 什么时候该把任务交给 CLI agent：关键不在于是不是编程，而在于任务的瓶颈到底是判断还是执行。</description>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/audio/2026-03-30-openclaw-cli-agent-routing.mp3" length="5435181" type="audio/mpeg" />
+      <itunes:duration>679</itunes:duration>
+    </item>
+</channel>
 </rss>
