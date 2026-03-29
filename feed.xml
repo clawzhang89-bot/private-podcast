@@ -7,7 +7,7 @@
     <language>zh-cn</language>
     <description>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为 GitHub Pages 托管的可订阅测试 feed。</description>
     <generator>podcast-workflow + GitHub Pages</generator>
-    <lastBuildDate>Sun, 29 Mar 2026 13:31:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 16:42:43 GMT</lastBuildDate>
     <image>
       <url>https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg</url>
       <title>小宝财经慢听</title>
@@ -25,6 +25,21 @@
       <itunes:name>Evan</itunes:name>
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>单人男声｜从零开始两天构建一个 Claude Code</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-30-claude-code-cli-solo-male.mp3</link>
+      <description>基于小八这篇长文做的单人男声口播，重点讲清一个生产级 AI CLI 为什么难点不在模型调用，而在上下文、工具、权限、状态、流式输出和交互体验这些系统层。</description>
+      <content:encoded>基于小八这篇长文做的单人男声口播，重点讲清一个生产级 AI CLI 为什么难点不在模型调用，而在上下文、工具、权限、状态、流式输出和交互体验这些系统层。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>基于小八这篇长文做的单人男声口播，重点讲清一个生产级 AI CLI 为什么难点不在模型调用，而在上下文、工具、权限、状态、流式输出和交互体验这些系统层。</itunes:summary>
+      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
+      <itunes:duration>02:12</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sun, 29 Mar 2026 16:42:43 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-30-claude-code-cli-solo-male</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-30-claude-code-cli-solo-male.mp3" length="1059309" type="audio/mpeg" />
+    </item>
     <item>
       <title>为什么程序员钟爱 Codex，Vibe Coding 的人却离不开 Claude？</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-29-berryxia-codex-vs-claude-single.mp3</link>
