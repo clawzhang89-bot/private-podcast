@@ -7,7 +7,7 @@
     <language>zh-cn</language>
     <description>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为 GitHub Pages 托管的可订阅测试 feed。</description>
     <generator>podcast-workflow + GitHub Pages</generator>
-    <lastBuildDate>Sun, 29 Mar 2026 16:42:43 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 16:49:09 GMT</lastBuildDate>
     <image>
       <url>https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg</url>
       <title>小宝财经慢听</title>
@@ -25,6 +25,21 @@
       <itunes:name>Evan</itunes:name>
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>严格正文男声｜从零开始两天构建一个 Claude Code</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-30-claude-code-cli-strict-fulltext-male.mp3</link>
+      <description>按 X 长文正文严格口播的单人男声版本，尽量保留原文结构、术语和判断，不做额外发挥。</description>
+      <content:encoded>按 X 长文正文严格口播的单人男声版本，尽量保留原文结构、术语和判断，不做额外发挥。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>按 X 长文正文严格口播的单人男声版本，尽量保留原文结构、术语和判断，不做额外发挥。</itunes:summary>
+      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
+      <itunes:duration>16:01</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sun, 29 Mar 2026 16:49:09 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-30-claude-code-cli-strict-fulltext-male</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-30-claude-code-cli-strict-fulltext-male.mp3" length="7684845" type="audio/mpeg" />
+    </item>
     <item>
       <title>单人男声｜从零开始两天构建一个 Claude Code</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-30-claude-code-cli-solo-male.mp3</link>
