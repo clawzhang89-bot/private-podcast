@@ -41,21 +41,6 @@
       <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-30-claude-code-cli-strict-fulltext-male.mp3" length="7684845" type="audio/mpeg" />
     </item>
     <item>
-      <title>单人男声｜从零开始两天构建一个 Claude Code</title>
-      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-30-claude-code-cli-solo-male.mp3</link>
-      <description>基于小八这篇长文做的单人男声口播，重点讲清一个生产级 AI CLI 为什么难点不在模型调用，而在上下文、工具、权限、状态、流式输出和交互体验这些系统层。</description>
-      <content:encoded>基于小八这篇长文做的单人男声口播，重点讲清一个生产级 AI CLI 为什么难点不在模型调用，而在上下文、工具、权限、状态、流式输出和交互体验这些系统层。</content:encoded>
-      <itunes:author>Evan</itunes:author>
-      <itunes:summary>基于小八这篇长文做的单人男声口播，重点讲清一个生产级 AI CLI 为什么难点不在模型调用，而在上下文、工具、权限、状态、流式输出和交互体验这些系统层。</itunes:summary>
-      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
-      <itunes:duration>02:12</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
-      <itunes:explicit>false</itunes:explicit>
-      <pubDate>Sun, 29 Mar 2026 16:42:43 GMT</pubDate>
-      <guid isPermaLink="false">2026-03-30-claude-code-cli-solo-male</guid>
-      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-30-claude-code-cli-solo-male.mp3" length="1059309" type="audio/mpeg" />
-    </item>
-    <item>
       <title>为什么程序员钟爱 Codex，Vibe Coding 的人却离不开 Claude？</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-29-berryxia-codex-vs-claude-single.mp3</link>
       <description>基于 Berryxia.AI 的 X Article 正文整理的单人中文播客，梳理 Claude 与 Codex 在模型架构、产品形态与真实开发工作流上的差异，以及 Vibe Coding 与传统工程任务各自更适合什么工具。</description>
