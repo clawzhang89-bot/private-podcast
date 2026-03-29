@@ -7,7 +7,7 @@
     <language>zh-cn</language>
     <description>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为 GitHub Pages 托管的可订阅测试 feed。</description>
     <generator>podcast-workflow + GitHub Pages</generator>
-    <lastBuildDate>Thu, 26 Mar 2026 16:25:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 13:31:33 GMT</lastBuildDate>
     <image>
       <url>https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg</url>
       <title>小宝财经慢听</title>
@@ -25,6 +25,21 @@
       <itunes:name>Evan</itunes:name>
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>为什么程序员钟爱 Codex，Vibe Coding 的人却离不开 Claude？</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-29-berryxia-codex-vs-claude-single.mp3</link>
+      <description>基于 Berryxia.AI 的 X Article 正文整理的单人中文播客，梳理 Claude 与 Codex 在模型架构、产品形态与真实开发工作流上的差异，以及 Vibe Coding 与传统工程任务各自更适合什么工具。</description>
+      <content:encoded>基于 Berryxia.AI 的 X Article 正文整理的单人中文播客，梳理 Claude 与 Codex 在模型架构、产品形态与真实开发工作流上的差异，以及 Vibe Coding 与传统工程任务各自更适合什么工具。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>基于 Berryxia.AI 的 X Article 正文整理的单人中文播客，梳理 Claude 与 Codex 在模型架构、产品形态与真实开发工作流上的差异，以及 Vibe Coding 与传统工程任务各自更适合什么工具。</itunes:summary>
+      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
+      <itunes:duration>06:25</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Sun, 29 Mar 2026 13:31:33 GMT</pubDate>
+      <guid isPermaLink="false">2026-03-29-berryxia-codex-vs-claude-single</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-29-berryxia-codex-vs-claude-single.mp3" length="3080493" type="audio/mpeg" />
+    </item>
     <item>
       <title>具身智能：开放生态会赢，还是封闭系统会赢？</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-27-embodied-intelligence-open-vs-closed.mp3</link>
@@ -114,7 +129,6 @@
       <guid isPermaLink="false">2026-03-26-demo-analysis-001</guid>
       <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-26-demo-analysis.mp3" length="859628" type="audio/mpeg" />
     </item>
-  
     <item>
       <title>Karpathy autoresearch 与 Claude Skills：单人男声中文解读</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/assets/2026-03-28-karpathy-autoresearch-single-male.mp3</link>
@@ -123,6 +137,5 @@
       <description>基于两篇围绕 Karpathy autoresearch 方法与 Claude Skills 的内容，整理成尽量少改动、适合收听的单人男声中文音频。</description>
       <enclosure url="https://clawzhang89-bot.github.io/private-podcast/assets/2026-03-28-karpathy-autoresearch-single-male.mp3" length="1767789" type="audio/mpeg" />
     </item>
-
   </channel>
 </rss>
