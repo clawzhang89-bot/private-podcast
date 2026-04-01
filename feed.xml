@@ -7,7 +7,7 @@
     <language>zh-cn</language>
     <description>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为 GitHub Pages 托管的可订阅测试 feed。</description>
     <generator>podcast-workflow + GitHub Pages</generator>
-    <lastBuildDate>Sun, 29 Mar 2026 16:49:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 13:08:44 -0000</lastBuildDate>
     <image>
       <url>https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg</url>
       <title>小宝财经慢听</title>
@@ -25,7 +25,7 @@
       <itunes:name>Evan</itunes:name>
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
-    <item>
+    <item><title>Jack 长文解读｜从层级组织到智能型公司</title><link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-01-jack-hierarchy-to-intelligence-single-male.mp3</link><description>基于 Jack 在 X 上发布的长文《From Hierarchy to Intelligence》整理的单人男声中文播客，梳理层级组织的历史起源、AI 如何替代信息协调功能，以及 Block 所设想的‘公司即智能体’组织模型。</description><content:encoded>基于 Jack 在 X 上发布的长文《From Hierarchy to Intelligence》整理的单人男声中文播客，梳理层级组织的历史起源、AI 如何替代信息协调功能，以及 Block 所设想的‘公司即智能体’组织模型。</content:encoded><itunes:author>Evan</itunes:author><itunes:summary>基于 Jack 在 X 上发布的长文《From Hierarchy to Intelligence》整理的单人男声中文播客，梳理层级组织的历史起源、AI 如何替代信息协调功能，以及 Block 所设想的‘公司即智能体’组织模型。</itunes:summary><itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" /><itunes:episodeType>full</itunes:episodeType><itunes:explicit>false</itunes:explicit><pubDate>Wed, 01 Apr 2026 13:08:44 -0000</pubDate><guid isPermaLink="false">2026-04-01-jack-hierarchy-to-intelligence-single-male</guid><enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-01-jack-hierarchy-to-intelligence-single-male.mp3" length="3465453" type="audio/mpeg" /></item><item>
       <title>严格正文男声｜从零开始两天构建一个 Claude Code</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-30-claude-code-cli-strict-fulltext-male.mp3</link>
       <description>按 X 长文正文严格口播的单人男声版本，尽量保留原文结构、术语和判断，不做额外发挥。</description>
