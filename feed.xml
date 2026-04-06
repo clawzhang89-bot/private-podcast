@@ -25,7 +25,35 @@
       <itunes:name>Evan</itunes:name>
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
-    <item><title>Jack 长文解读｜从层级组织到智能型公司</title><link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-01-jack-hierarchy-to-intelligence-single-male.mp3</link><description>基于 Jack 在 X 上发布的长文《From Hierarchy to Intelligence》整理的单人男声中文播客，梳理层级组织的历史起源、AI 如何替代信息协调功能，以及 Block 所设想的‘公司即智能体’组织模型。</description><content:encoded>基于 Jack 在 X 上发布的长文《From Hierarchy to Intelligence》整理的单人男声中文播客，梳理层级组织的历史起源、AI 如何替代信息协调功能，以及 Block 所设想的‘公司即智能体’组织模型。</content:encoded><itunes:author>Evan</itunes:author><itunes:summary>基于 Jack 在 X 上发布的长文《From Hierarchy to Intelligence》整理的单人男声中文播客，梳理层级组织的历史起源、AI 如何替代信息协调功能，以及 Block 所设想的‘公司即智能体’组织模型。</itunes:summary><itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" /><itunes:episodeType>full</itunes:episodeType><itunes:explicit>false</itunes:explicit><pubDate>Wed, 01 Apr 2026 13:08:44 -0000</pubDate><guid isPermaLink="false">2026-04-01-jack-hierarchy-to-intelligence-single-male</guid><enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-01-jack-hierarchy-to-intelligence-single-male.mp3" length="3465453" type="audio/mpeg" /></item><item>
+    <item>
+      <title>Isaac Lab 开发技术讲解：从项目生成到关节定义与最小训练</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-07-isaac-lab-dev-single-male.mp3</link>
+      <description>一段偏技术向、适合开发者收听的中文长音频，系统讲解 Isaac Lab 的项目结构、Articulation、Joint、Actuator、Direct RL 环境与最小训练路径。</description>
+      <content:encoded>一段偏技术向、适合开发者收听的中文长音频，系统讲解 Isaac Lab 的项目结构、Articulation、Joint、Actuator、Direct RL 环境与最小训练路径。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>一段偏技术向、适合开发者收听的中文长音频，系统讲解 Isaac Lab 的项目结构、Articulation、Joint、Actuator、Direct RL 环境与最小训练路径。</itunes:summary>
+      <itunes:duration>13:40</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Mon, 06 Apr 2026 16:55:48 GMT</pubDate>
+      <guid isPermaLink="false">2026-04-07-isaac-lab-dev-single-male</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-07-isaac-lab-dev-single-male.mp3" length="6562029" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Jack 长文解读｜从层级组织到智能型公司</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-01-jack-hierarchy-to-intelligence-single-male.mp3</link>
+      <description>基于 Jack 在 X 上发布的长文《From Hierarchy to Intelligence》整理的单人男声中文播客，梳理层级组织的历史起源、AI 如何替代信息协调功能，以及 Block 所设想的‘公司即智能体’组织模型。</description>
+      <content:encoded>基于 Jack 在 X 上发布的长文《From Hierarchy to Intelligence》整理的单人男声中文播客，梳理层级组织的历史起源、AI 如何替代信息协调功能，以及 Block 所设想的‘公司即智能体’组织模型。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>基于 Jack 在 X 上发布的长文《From Hierarchy to Intelligence》整理的单人男声中文播客，梳理层级组织的历史起源、AI 如何替代信息协调功能，以及 Block 所设想的‘公司即智能体’组织模型。</itunes:summary>
+      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 01 Apr 2026 13:08:44 -0000</pubDate>
+      <guid isPermaLink="false">2026-04-01-jack-hierarchy-to-intelligence-single-male</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-01-jack-hierarchy-to-intelligence-single-male.mp3" length="3465453" type="audio/mpeg" />
+    </item>
+    <item>
       <title>严格正文男声｜从零开始两天构建一个 Claude Code</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-03-30-claude-code-cli-strict-fulltext-male.mp3</link>
       <description>按 X 长文正文严格口播的单人男声版本，尽量保留原文结构、术语和判断，不做额外发挥。</description>
@@ -152,7 +180,6 @@
       <description>基于两篇围绕 Karpathy autoresearch 方法与 Claude Skills 的内容，整理成尽量少改动、适合收听的单人男声中文音频。</description>
       <enclosure url="https://clawzhang89-bot.github.io/private-podcast/assets/2026-03-28-karpathy-autoresearch-single-male.mp3" length="1767789" type="audio/mpeg" />
     </item>
-  
     <item>
       <title>OpenClaw 什么时候应该把任务交给 CLI Agent</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/2026-03-30-openclaw-cli-agent-routing.html</link>
@@ -162,5 +189,5 @@
       <enclosure url="https://clawzhang89-bot.github.io/private-podcast/audio/2026-03-30-openclaw-cli-agent-routing.mp3" length="5435181" type="audio/mpeg" />
       <itunes:duration>679</itunes:duration>
     </item>
-</channel>
+  </channel>
 </rss>
