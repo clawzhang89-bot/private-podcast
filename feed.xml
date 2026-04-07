@@ -26,6 +26,20 @@
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
     <item>
+      <title>CartPole、强化学习与 Isaac Lab 词汇双人播客</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-07-cartpole-rl-glossary-dialogue.mp3</link>
+      <description>基于词汇表制作的双人中文技术播客。每人负责一个词，保留英文词的发音与拼写提示，主体解释全部用中文，帮助熟悉 CartPole、强化学习和 Isaac Lab 相关术语。</description>
+      <content:encoded>基于词汇表制作的双人中文技术播客。每人负责一个词，保留英文词的发音与拼写提示，主体解释全部用中文，帮助熟悉 CartPole、强化学习和 Isaac Lab 相关术语。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>基于词汇表制作的双人中文技术播客。每人负责一个词，保留英文词的发音与拼写提示，主体解释全部用中文，帮助熟悉 CartPole、强化学习和 Isaac Lab 相关术语。</itunes:summary>
+      <itunes:duration>26:35</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 07 Apr 2026 15:09:08 GMT</pubDate>
+      <guid isPermaLink="false">2026-04-07-cartpole-rl-glossary-dialogue</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-07-cartpole-rl-glossary-dialogue.mp3" length="12761900" type="audio/mpeg" />
+    </item>
+    <item>
       <title>Isaac Lab 基础概念专题：Articulation、Joint 与 Actuator</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-07-isaac-lab-articulation-joint-actuator-single-male.mp3</link>
       <description>一段偏技术向、适合开发者收听的中文长音频，系统讲解 Isaac Lab 中 articulation、joint、actuator 的层次关系，以及它们如何进入控制与训练流程。</description>
