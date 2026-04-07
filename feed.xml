@@ -26,6 +26,20 @@
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
     <item>
+      <title>缓存机制技术讲解：从 Gemma4 到 Claude Code 为什么能省 Token</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-08-cache-mechanism-gemma4-claude-code-single-male.mp3</link>
+      <description>围绕 X 上文章主题做的一期单男声技术播客，重点讲清大模型系统中的 KV cache、prompt caching、agent 状态缓存，以及为什么缓存能显著降低 token 成本与延迟。</description>
+      <content:encoded>围绕 X 上文章主题做的一期单男声技术播客，重点讲清大模型系统中的 KV cache、prompt caching、agent 状态缓存，以及为什么缓存能显著降低 token 成本与延迟。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>围绕 X 上文章主题做的一期单男声技术播客，重点讲清大模型系统中的 KV cache、prompt caching、agent 状态缓存，以及为什么缓存能显著降低 token 成本与延迟。</itunes:summary>
+      <itunes:duration>12:30</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 07 Apr 2026 17:27:15 GMT</pubDate>
+      <guid isPermaLink="false">2026-04-08-cache-mechanism-gemma4-claude-code-single-male</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-08-cache-mechanism-gemma4-claude-code-single-male.mp3" length="5996589" type="audio/mpeg" />
+    </item>
+    <item>
       <title>CartPole、强化学习与 Isaac Lab 词汇双人播客</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-07-cartpole-rl-glossary-dialogue.mp3</link>
       <description>基于词汇表制作的双人中文技术播客。每人负责一个词，保留英文词的发音与拼写提示，主体解释全部用中文，帮助熟悉 CartPole、强化学习和 Isaac Lab 相关术语。</description>
