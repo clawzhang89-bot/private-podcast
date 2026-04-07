@@ -26,6 +26,20 @@
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
     <item>
+      <title>Isaac Lab 基础概念专题：Articulation、Joint 与 Actuator</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-07-isaac-lab-articulation-joint-actuator-single-male.mp3</link>
+      <description>一段偏技术向、适合开发者收听的中文长音频，系统讲解 Isaac Lab 中 articulation、joint、actuator 的层次关系，以及它们如何进入控制与训练流程。</description>
+      <content:encoded>一段偏技术向、适合开发者收听的中文长音频，系统讲解 Isaac Lab 中 articulation、joint、actuator 的层次关系，以及它们如何进入控制与训练流程。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>一段偏技术向、适合开发者收听的中文长音频，系统讲解 Isaac Lab 中 articulation、joint、actuator 的层次关系，以及它们如何进入控制与训练流程。</itunes:summary>
+      <itunes:duration>14:08</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Tue, 07 Apr 2026 09:31:50 GMT</pubDate>
+      <guid isPermaLink="false">2026-04-07-isaac-lab-articulation-joint-actuator-single-male</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-07-isaac-lab-articulation-joint-actuator-single-male.mp3" length="6780333" type="audio/mpeg" />
+    </item>
+    <item>
       <title>Isaac Lab 开发技术讲解：从项目生成到关节定义与最小训练</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-07-isaac-lab-dev-single-male.mp3</link>
       <description>一段偏技术向、适合开发者收听的中文长音频，系统讲解 Isaac Lab 的项目结构、Articulation、Joint、Actuator、Direct RL 环境与最小训练路径。</description>
