@@ -1,0 +1,175 @@
+今天这期，整理一下我这轮机器人、具身智能、VLA、世界模型和物理 AI 相关关注列表里，最近出现了哪些值得保留的信息。
+
+这次还是按之前的原则来：
+不做过度压缩，不强行拔高成一个统一结论，而是尽可能保留原始信息密度，只做整理、归类和串联。
+
+这次看的账号，主要包括几类。
+中国大陆厂商这边，有 Unitree、UBTECH、LimX Dynamics、Fourier。
+基础设施和仿真这边，有 NVIDIA Robotics 和 NVIDIA Omniverse。
+海外具身主线对照，有 Figure 和 1X。
+另外还有 Google DeepMind 和 Yann LeCun 这两个原本就在列表里的账号，不过这次它们在具身方向上的有效信息密度并不一样。
+
+先看中国大陆厂商。
+
+第一家，Unitree，也就是宇树。
+这轮信息里，宇树最值得记住的，不只是机器人表演，而是它开始更明确地把数据资产往外放。
+其中最关键的一条，是 Unitree 开源了 UnifoLM-WBT-Dataset。
+这条信息的关键词非常明确：real-world humanoid robot whole-body teleoperation dataset，也就是面向真实环境的人形机器人全身遥操作数据集。
+而且它还特别强调，这个数据集是从 2026 年 3 月 5 日起公开，并且会持续高频滚动更新。
+这一点很重要。
+因为在具身智能里，大家经常说模型、说本体、说 demo，但真正会长期拉开差距的，往往是数据生产、数据闭环和数据可复用性。
+所以宇树这条，不只是“又发了一个数据集”，而是它在公开释放一个非常关键的信号：它想把 whole-body teleoperation 这类真实数据，变成平台能力的一部分。
+
+宇树另外几条内容，则更偏产品和展示。
+比如 As2，这个产品强调几个参数：
+九十牛米最大扭矩，四小时以上空载续航，IP54 防雨，十五公斤载荷，十三公里以上续航，而且开放二次开发。
+这一条的含义，不是它突然变成了人形机器人公司之外的什么新方向，而是宇树继续在强化“通用机器人平台 + 开放开发能力”的定位。
+
+再往前一点，还有 G1 机器人的群体表演和春晚同款“功夫机器人”这类展示。
+这些内容本身偏传播，但它们也反映出宇树现在在两条线同时做事：
+一条线是高传播度的机器人展示和品牌心智；
+另一条线是更硬的开放数据集和可开发平台。
+这两条线放在一起，说明宇树并不只是做出圈视频，它也在往具身训练基础设施那边走。
+
+第二家，UBTECH，也就是优必选。
+如果说宇树这轮最明显的是“数据和产品平台感”，那优必选这轮最明显的是“产业落地和商业化”。
+
+第一条最值得记住的，是 UBTECH 通过旗下智能物流子公司 UQI，和 Honda Trading 签署了战略合作协议，明确要去探索 humanoid robots 在汽车制造场景里的部署。
+这条消息很像真正的大公司路径：不是先讲一个特别炫的 demo，而是先把合作方、行业场景和部署方向钉住。
+
+第二条是它的 2025 年财报信息。
+UBTECH 公开说，2025 年总营收达到二十亿零一百万元人民币，同比增长百分之五十三点三，而且 humanoid robots 已经成为最大的收入来源。
+这一条非常关键，因为这不是一个抽象的“未来会很大”，而是一个更接近产业验证的口径。
+对具身赛道来说，什么时候“人形机器人”不再只是资本故事，而开始进入真实收入结构，这个信号的意义很大。
+
+另外，优必选还在讲 autonomous logistics vehicles 在富士康新能源研发中心完成下线和 PVT，也就是生产验证测试。
+还有一些参访、国际交流、足球明星到访深圳这类内容。
+这些内容有传播属性，但整体看下来，优必选在 X 上表现出来的核心画像其实挺清楚：
+它更像一家已经有比较强产业组织能力的公司，在持续把具身智能和物流、制造、企业合作、出海落地这些东西绑在一起。
+
+第三家，LimX Dynamics，也就是逐际动力。
+这家公司这一轮内容的特点，和宇树、优必选都不太一样。
+如果说宇树更偏技术与传播双轮，优必选更偏产业化，那么 LimX 这一轮更偏“品牌露出 + 海外展会 + 人形形象塑造”。
+
+比如它提到 Oli 作为 humanoid robot speaker 参加 HSBC Global Investment Summit，这是一个很典型的“机器人作为公共事件主角”式内容。
+然后它又预告 Hannover Messe 2026，会带 unreleased robot，名字叫 LimX Luna，在海外首次亮相。
+这说明它的节奏之一，是在通过高规格场合不断把产品形象往国际市场推。
+
+另外还有一些内容，比如 TRON 1 在广东 BA 亮相，被包装成 cyber dinosaur；
+Oli 和 Luna 登上 VOGUE；
+以及在 Taobao Influencer Night 做秀场和红毯展示。
+这些信息单独看会让人觉得“是不是太偏营销了”，但换个角度说，它也体现了一个很现实的赛道状态：
+很多具身公司现在不仅在争技术路线，也在争“公众和市场如何想象人形机器人”的文化入口。
+所以 LimX 这轮虽然硬技术密度不高，但它在塑造机器人形象、海外亮相和市场叙事上，是明显有动作的。
+
+第四家，Fourier。
+Fourier 这一轮的更新，和 LimX 有点像，也带有比较明显的展示属性，但它的调性稍微更偏产品感。
+
+最近几条内容里，它提到 CES 2026 的亮相，讲 GR-3 以及一个 still in development 的 concept care-bot。
+关键词包括：small、playful、responsive，以及 meaningful interaction。
+这说明 Fourier 在展示层面，不只是想把机器人讲成工业设备或技术试验品，而是强调互动性、陪伴感和更轻量的人机关系。
+
+它还发了 CES 展会现场的内容，比如和观众玩井字棋、机器人跳舞、新原型受到关注等等。
+这一类信息虽然不一定直接指向底层技术突破，但它能反映出 Fourier 当前在海外传播中的产品姿态：
+更强调互动、角色感和 demo 体验，而不是纯工业或研究叙事。
+
+所以如果把这四家中国大陆厂商放在一起看，一个比较清楚的对比是：
+宇树更像“高传播产品平台 + 数据开放”；
+优必选更像“产业化和收入验证”；
+逐际更像“人形形象、国际露出和品牌舞台”；
+Fourier 则更偏“互动型机器人展示和产品体验叙事”。
+
+接下来再看基础设施和仿真这条线。
+
+这里最关键的账号，是 NVIDIA Robotics。
+这一轮它给出的信息，几乎就是你特别关心的 Isaac 方向里的主线摘要。
+
+第一条，是 University of Maryland 研究人员使用 NVIDIA Isaac platform 和硬件，来训练能够 see、plan、act with autonomy 的 humanoid robots。
+这条内容说明 Isaac 不是只停留在 SDK 或 demo 层，它继续在连接学术界、硬件平台和真实 humanoid autonomy 训练。
+
+第二条，是它直接在预告 Robotics Office Hours，主题里明确出现了 Isaac Lab 3.0 和 Isaac Automator。
+这条非常重要。
+因为这说明在官方叙事里，Isaac Lab 和 Isaac Automator 已经不是边缘词，而是正在成为机器人开发者应该关注的一整套工具链的一部分。
+
+第三条，是 AWS 和 MassRobotics Fellowship 相关内容，里面提到一批真实世界 robotics startups，在农业、制造、人形和自动化方向推进落地。
+这个信息的作用，更像是告诉你：NVIDIA Robotics 不只是在讲自家技术堆栈，也在试图占据“physical AI 创业生态的基础设施位置”。
+
+第四条，Jetson 使能 Pelican fleet 的近实时轨道洞察，虽然不是 humanoid，但它也说明 Robotics 这条账号的边界比“机器人本体”更广，实际上是在覆盖整个 autonomous machines 范围。
+
+然后看 NVIDIA Omniverse。
+如果说 NVIDIA Robotics 更偏开发者和机器人生态，那么 Omniverse 这一轮更像在讲 physical AI 和工业数字化的底层运行环境。
+
+它提到的几个点包括：
+第一，physical AI is here and it’s scaling fast，强调机器人和 autonomous systems 的 simulation，以及一整套 advanced libraries 正在支撑下一代真实世界机器。
+第二，AI-enabled engineering、AI physics、agentic AI，加上 Omniverse 和 PhysicsNeMo，使得流体仿真可以变成 real-time、interactive digital twins。
+第三，在 Hannover Messe 上展示从 smart factories 到 digital twins 的工业 AI 图景。
+
+这些内容看起来不像“具身智能热点新闻”，但其实非常关键。
+因为在机器人赛道里，很多能力不是直接发生在机器人本体上，而是发生在仿真、数字孪生、物理建模、训练工具链和部署前验证这一层。
+所以 Omniverse 这条线，虽然没有直接讲某个 humanoid demo，但它是在讲支撑 physical AI 的工程底座。
+
+再往外看，海外具身主线对照组里，最值得注意的是 Figure 和 1X。
+
+先说 Figure。
+Figure 最近最有价值的内容，是 Helix 02 这条线。
+它展示了 whole body、end-to-end 的 living room cleanup，也就是在家庭客厅这种场景里做自主整理。
+它的表述很明确：当你离开家以后，家会被重置成你喜欢的样子。
+
+这句话其实很重要。
+因为它说明 Figure 不是只想证明“机器人会做某个动作”，而是想把 household autonomy 变成一个完整产品愿景。
+而且它讲的是 integrated, whole-body autonomy，这和很多只做单手抓取或者单任务 demo 的系统，有明显区别。
+
+另外还有关于 human hand parity 的表述，以及在 White House 的亮相。
+前者偏能力目标，后者偏品牌和政治曝光。
+两者结合起来看，Figure 现在还是非常典型的“高势能明星公司路径”：
+一边讲 household autonomy，一边讲全身协同，一边维持强烈的品牌叙事。
+
+再说 1X。
+这轮 1X 最值得保留的一句话，是 NEO’s Starting to Learn on Its Own。
+它虽然没有像 Figure 那样用很多长解释来展开，但这个表述本身已经很有方向性了：
+它试图把机器人从 scripted behavior，往更自发、更持续学习的能力去推。
+
+如果把 Figure 和 1X 对照着看，一个相对直观的区别是：
+Figure 更强调 whole-body end-to-end household autonomy 的 demo 和产品愿景；
+1X 更强调家用机器人在学习能力上的成长和潜在长期路线。
+
+最后再回头看原本就在这个分组里的 Google DeepMind 和 Yann LeCun。
+这次这两个账号在具身方向上的有效信息密度差异非常大。
+
+Google DeepMind 这轮主要还是 Gemma 4。
+它强调 open models、agentic workflows、native tool use、长上下文，以及 edge 端文本、视觉、音频处理。
+这些内容和 embodied 并不是完全无关，特别是 edge 端视觉和音频能力、tool use、agentic workflows，都和未来机器人系统有邻接关系。
+但严格说，这轮它给出的还是更偏 open model 和 agent 基础能力，而不是直接的机器人主线更新。
+
+至于 Yann LeCun，这轮基本被政治和社会评论淹没了。
+虽然他的个人简介里当然仍然和 AI、机器学习、机器人有关，但这次抓到的近帖几乎都不构成具身智能信息增量。
+这也说明，把某些大人物账号直接放进 embodied 分组，并不一定总是有效，后面也许要降低它在这个分组里的权重。
+
+如果把这轮所有内容收一下，不做过度概括，大概能看到几条相对明确的并行趋势。
+
+第一条，是中国大陆厂商已经明显开始分化出不同路线。
+宇树在强化数据开放和通用机器人平台感。
+优必选在强化产业落地、合作和收入结构验证。
+逐际在强化国际舞台露出和人形机器人形象。
+Fourier则在强化互动体验和产品展示。
+这说明中国大陆的具身公司，已经不只是“大家都在做 humanoid”，而是开始形成不同的组织能力和市场叙事。
+
+第二条，是 physical AI 的基础设施叙事在继续变重。
+Isaac platform、Isaac Lab 3.0、Isaac Automator、Omniverse、PhysicsNeMo、digital twins 这些东西，正在越来越像一个完整堆栈，而不是零散工具。
+这对机器人行业特别重要，因为很多下一阶段的竞争，不会只发生在机器人本体，而会发生在训练环境、仿真验证、数据生成、部署流水线和工程效率上。
+
+第三条，是 household humanoid 这个方向，仍然由 Figure 和 1X 这样的公司在持续往前讲，而且重点越来越集中在“whole-body autonomy”和“持续学习”这两个方向上。
+也就是说，行业已经不满足于展示机器人会拿一个杯子，而是开始讲：机器人能不能在一个完整家庭场景里，以更持续、更整体的方式行动。
+
+第四条，是“可讲给公众听的机器人叙事”也正在变成一个竞争维度。
+VOGUE、秀场、投资峰会、体育明星参访、White House 露出，这些内容看起来不像技术论文，但它们在决定资本市场、公众认知、人才吸引和海外扩张的过程中，可能并不比纯技术更新弱。
+
+最后做个简短收束。
+如果你问，这轮机器人和具身智能方向最值得保留的更新是什么，我会说主要有三件事。
+第一，宇树把 whole-body teleoperation 数据集公开出来，这条对训练和数据闭环非常关键。
+第二，NVIDIA 这边把 Isaac Lab 3.0、Isaac Automator 和 physical AI 工具链继续往前推，说明基础设施线在加速。
+第三，中国大陆和海外人形机器人公司，都在把重点逐步从“一个炫的 demo”转向“平台能力、家庭场景、产业落地和持续学习”这些更成体系的方向。
+
+这期先整理到这里。
+如果你后面要，我可以继续把这一组再拆成两条更细的长音频：
+一条只讲中国大陆厂商，另一条只讲 Isaac / Omniverse / Figure / 1X 这条国际主线。

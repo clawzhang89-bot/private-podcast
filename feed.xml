@@ -7,7 +7,7 @@
     <language>zh-cn</language>
     <description>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为 GitHub Pages 托管的可订阅测试 feed。</description>
     <generator>podcast-workflow + GitHub Pages</generator>
-    <lastBuildDate>Wed, 08 Apr 2026 04:56:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2026 09:17:21 GMT</lastBuildDate>
     <image>
       <url>https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg</url>
       <title>小宝财经慢听</title>
@@ -25,6 +25,21 @@
       <itunes:name>Evan</itunes:name>
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>具身智能最近发生了什么：Embodied Digest 整理版（单人男声）</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-08-embodied-digest-single-male.mp3</link>
+      <description>基于机器人、具身智能、VLA、世界模型和 physical AI 相关 X 关注列表整理的一期单人男声中文播客，尽量保留原始信息，覆盖宇树、优必选、逐际、Fourier、NVIDIA Isaac / Omniverse、Figure 与 1X 等方向。</description>
+      <content:encoded>基于机器人、具身智能、VLA、世界模型和 physical AI 相关 X 关注列表整理的一期单人男声中文播客，尽量保留原始信息，覆盖宇树、优必选、逐际、Fourier、NVIDIA Isaac / Omniverse、Figure 与 1X 等方向。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>基于机器人、具身智能、VLA、世界模型和 physical AI 相关 X 关注列表整理的一期单人男声中文播客，尽量保留原始信息，覆盖宇树、优必选、逐际、Fourier、NVIDIA Isaac / Omniverse、Figure 与 1X 等方向。</itunes:summary>
+      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
+      <itunes:duration>14:58</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Wed, 08 Apr 2026 09:17:21 GMT</pubDate>
+      <guid isPermaLink="false">2026-04-08-embodied-digest-single-male</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-08-embodied-digest-single-male.mp3" length="7186989" type="audio/mpeg" />
+    </item>
     <item>
       <title>X Digest 最近发生了什么：关注列表整理版（单人男声）</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-08-x-digest-recent-happenings-single-male.mp3</link>
