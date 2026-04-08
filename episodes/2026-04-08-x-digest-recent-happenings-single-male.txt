@@ -1,0 +1,147 @@
+今天这期，整理一下我关注的 X KOL 列表里，最近几天主要发生了什么。
+
+这次先不做过度压缩，也不强行写成观点文章。目标很简单，就是尽可能保留原始信息，把它整理成一段适合连续收听的单人中文播客。
+
+这一轮内容大致可以分成两组。
+第一组是 AI 和大模型相关。
+第二组是 Agent、自动化、Claude Code、OpenClaw 这一组。
+
+先看 AI 和大模型这条线。
+
+这一组里，一共抓到了九十多条新内容，涉及的账号包括 Fuli Luo、Qwen、Andrew Ng、Berkeley AI Research、Chris Olah、DeepSeek、Geoffrey Hinton、Google DeepMind、MiniMax、Stanford AI Lab，还有 Yann LeCun。
+
+先说 Fuli Luo 这边。
+她这轮最值得注意的有两层信息。
+第一层，是她提到很多第三方 harness 在接近上下文上限时，会每三步压缩一次 tool response，结果就是 cache hit rate 会很低。
+这条不是在发新模型，而是在点 agent 系统里的一个非常实际的性能问题。
+第二层，是她把 Anthropic 切断第三方 harness 使用 Claude 订阅，和 MiMo 推出 Token Plan 这两件事放在一起看。
+她的意思比较明确，行业已经从单纯聊天模型，往 agent 时代的算力分配、调用方式和产品机制转了。
+另外她也转发了 Xiaomi MiMo 的 MiMo-V2-Pro、Omni 和 TTS 发布内容，所以这条线上还有一个很明确的信号，就是模型能力、语音能力和 agent 化能力正在被一起打包。
+
+再看 Qwen。
+Qwen 这轮更新比较集中，核心是 Qwen3.6-Plus 的分发和使用数据。
+其中最显眼的一条，是 Qwen3.6-Plus 在 OpenRouter 上冲到了第一，而且成了 OpenRouter 上第一个单日处理 token 超过一万亿的模型。
+另外，Qwen 也在持续把模型铺到更多平台上，比如 OpenRouter、Fireworks，还有 Qoder 这种偏 coding 入口。
+还有一条比较典型，是他们在 Code Arena 的 React 排行里拿到比较高的位置，把这件事直接解释成 agentic coding 上的跃迁。
+这类信息放在一起看，不只是模型发出来了，而是模型在真实分发网络、调用入口和 coding 场景里都在抢占位置。
+
+Andrew Ng 这轮只有一条，但立场很鲜明。
+他继续在反对所谓 anti-AI coalition，认为有些人是在寻找理由拖慢 AI 进展。
+这里更像是一条政策和舆论层面的表达，不是产品发布，但它反映出这条线上不只是技术竞争，也有监管、风险叙事和公共辩论。
+
+Berkeley AI Research 这边，内容比较杂，但都偏研究输出和方法论。
+比如有 STITCH 2.0，用 da Vinci 机器人做连续缝合。
+有关于 free-text survey data 的主题识别框架。
+还有公开讲座、机器人 benchmark、world model representation 这些内容。
+这一组信号不是某个统一产品，而是学术界在机器人、世界模型和表示学习上持续出结果，而且这些结果开始更强调 benchmark、可验证性和具体任务表现。
+
+Chris Olah 这边，最近转发的内容明显偏 Anthropic 和 AI safety。
+比如 Project Glasswing，强调帮助保护关键软件系统，对抗 cyber threat。
+还有一条是 Anthropic 关于 emotion concepts 在大语言模型中的研究。
+这说明一部分前沿讨论，已经不只是模型效果有多强，而是在往模型内部表征、安全防御和社会影响这些方向继续扩展。
+
+DeepSeek 这边的内容，信息量很大，而且偏产品说明。
+DeepSeek-V3.2 和 DeepSeek-V3.2-Speciale 这一组，重点包括几个点。
+第一，强调 reasoning-first，并且说是为 agents 构建。
+第二，V3.2-Speciale 作为更高 reasoning 能力的版本，先走 API-only。
+第三，它们把 tool-use 里的 thinking 单独拎出来讲，提到覆盖一千八百多个环境、八万五千多个复杂指令的数据合成方法。
+第四，还有 open source release、tech report、API update 这些完整配套。
+如果把这些信息合在一起看，DeepSeek 想讲的不是单点 benchmark，而是一个更完整的 agent 模型路线：更强推理、更强调工具调用、更强调 API 形态和开放发布。
+
+Geoffrey Hinton 这边，这轮新内容其实不都在聊模型。
+一部分是 AI 风险、政策和公共治理。
+一部分甚至已经进入更广义的政治评论。
+所以如果只是按 AI 列表去看，会发现 watchlist 本身也会把人物型账号带来的外部议题一起卷进来。
+这不是坏事，但它提醒我们，这个列表里有些账号讲的是技术，有些讲的是技术加社会影响，还有些已经明显跨到公共事务讨论。
+
+Google DeepMind 这轮更新相对清晰。
+最核心的是 Gemma 4。
+他们把 Gemma 4 定位成可以运行在自有硬件上的 open models，强调 Apache 2.0 许可，强调 advanced reasoning，也强调 agentic workflows。
+往下拆，还有几个更具体的卖点。
+一个是支持 native tool use，可以做多步任务，比如查数据库、触发 API。
+一个是最高到二十五万六千上下文，可以处理更长的代码库和更复杂的 action histories。
+再一个是不同尺寸版本，既覆盖本地高性能推理，也覆盖移动端实时文本、视觉和音频处理。
+这条线很重要，因为它把 open model、agent tool use、长上下文和 edge deployment 放到了同一套叙事里。
+
+MiniMax 这边，重点有两个。
+一个是和 Nous Research 的 Hermes Agent 结合，强调 MiniMax M2.7 进入 agent 使用场景。
+另一个是继续公开说 open models 已经不是“差一点就行”，而是在核心 agent tasks 上能匹配 closed frontier models，同时更便宜也更快。
+还有一条是参加 HumanX，这说明它们也在走品牌、生态和产业合作路线，而不是只做技术发布。
+
+Stanford AI Lab 这边的内容，延续了它一贯比较散但有研究味道的风格。
+有 Mercury Edit 2，有实时多人神经网络生成游戏，也有 whole-body mobile manipulation、Dream2Flow、cross-embodiment transfer、OpenJarvis 这种方向。
+这组材料不适合硬拼成一个单一主题，但能看出一个大方向，就是研究界仍然在同时推进生成、代理、机器人和个体设备端 AI。
+
+Yann LeCun 这边，这轮内容很多已经偏离纯技术，更多是政治和公共评论转发。
+但其中也夹着一条 heynavtoor 转发的 Apple 证明模型连小学数学都做不好的说法。
+这里的意义不是这条判断一定成立，而是这类偏传播型 KOL 的叙事，开始越来越多地进入技术讨论的传播层。
+也就是说，技术本身的发布、对技术能力的解释，以及带情绪张力的二次传播，已经混在一起了。
+
+如果把 AI 和大模型这组内容收一下，不做过度概括，大体能看到这么几条并行线。
+第一条，是 open model 和 open weight 仍然在持续推进，而且不只是发模型，而是在争分发入口、争 agent 使用场景、争调用量和开发者生态。
+第二条，是大家越来越明确地把模型往 agent 方向讲，包括 tool use、长上下文、工作流、系统集成和推理加工具调用。
+第三条，是 safety、policy、public conversation 这类议题仍然在持续，而且会跟产品发布并行存在。
+第四条，是研究社区的信号并不收敛成单一主题，而是同时铺在机器人、世界模型、生成式编辑、个人设备 AI 和操作系统级 agent 上。
+
+接下来再看第二组，也就是 Agent、自动化、Claude Code、OpenClaw 这一组。
+
+这一组抓到五十条左右新内容，涉及的账号主要是 ollama、sarah guo、Sumanth、Nav Toor 和 Peter Steinberger，也就是 steipete。
+
+先看 ollama。
+这轮 ollama 的信息很密，而且和 OpenClaw 直接相关。
+一条很显眼的是转发 OpenClaw 2026.4.7，里面点到 openclaw infer、音乐加视频编辑、session branch and restore、webhook-driven TaskFlows，以及 Arcee、Gemma 等模型相关内容。
+另外还有连续几条在推 Ollama cloud 作为跑 OpenClaw 的地方。
+比如 Gemma 4 cloud。
+比如 GLM-5.1 cloud。
+再比如直接说二十美元计划对多数 OpenClaw 日常使用已经够了。
+还有一条是线下 meetup，说明这条线不仅在推产品，也在做开发者社区。
+把这些拼在一起看，ollama 这轮想强化的是，自己的 cloud 已经不只是模型托管，而是可以作为 OpenClaw、Claude Code 这类 agent 工具的基础运行层。
+
+sarah guo 这边，这次内容不算很多，但有几个点值得留意。
+一个是转发 NotionDevs，讨论随着模型进步，软件不再只受限于人写代码的速度和代码质量。
+一个是她在问新加坡有哪些 AI 和 AI investing 相关的人。
+还有 Liam Fedus 上播客聊 AI research self-improvement versus biology。
+这些内容说明她这边仍然是典型的 AI 创投和研究人物观察视角，不一定直接发产品，但很适合作为行业气氛和人脉流向的补充材料。
+
+Sumanth 这边，则非常偏教程型传播和 agent 工具普及。
+最主要的一条，是 AutoAgent。
+他的说法是，可以只用自然语言来 build and deploy LLM agents，把 AutoAgent 定义成 Fully-Automated、Zero-Code 的 agent framework。
+里面还提到 Agentic-RAG、自管理向量数据库之类的功能。
+另外一条是 Microsoft 开源 VibeVoice-ASR，说它解决了语音识别里把长音频切成短块处理的问题，能单次处理六十分钟音频。
+这一组内容的特点很明显，就是把 agent 工具、语音模型和自动化框架，包装成更容易传播和上手的形式。
+
+Nav Toor，也就是 heynavtoor，这轮信息密度非常高，而且传播风格很重。
+最集中的一组，是 PixVerse R1。
+他把 PixVerse R1 描述成 real-time, interactive, living video，不再是输入 prompt 生成 clip，而是更像实时世界引擎。
+往下拆，他列了几个具体点。
+第一，是无限长度，不再受四秒视频限制。
+第二，是 stateful simulation，更像 live engine，而不是 render queue。
+第三，是 instant feedback，输入和反应几乎实时。
+第四，是 Real-time Digital Humans，强调数字角色的实时反应、情感和身份连续性。
+第五，是应用层想象，包括 AI-native gaming、沉浸式导演、XR 和 metaverse 内容。
+除此之外，他还在转发 Stanford 关于模型“看起来看到了图像，但实际上没看”的 mirage 研究，以及 NVIDIA、Google DeepMind、Disney 开源物理引擎、训练机器人速度提升七十倍这种信息。
+所以他这个账号虽然归在 agents_automation，但实际上经常会把世界模型、视频生成、视觉幻觉、机器人引擎这些更宽的技术叙事，一起打包成高传播性的线程。
+
+最后看 steipete。
+这一轮最明确的一条，是 CodexBar 0.20 发布。
+里面的新东西包括接入 Perplexity 和 OpenCode Go provider，支持切换 Codex 账号不用重新登录，修复 Claude token 和 cost inflation 的重复统计问题，还把 session usage 合并到 provider history。
+这条信息很具体，也很像开发者真实会用到的增量。
+除了这个，他也转了一些关于 shipmax 排行、gpt 5.3 codex 上线后因为 cyber abuse 担心而传 user IDs 的讨论，还有一句非常像开源维护者日常感受的话：管理开源项目比管理付费闭源项目难得多，因为在公司你有 authority，在 OSS 里你只有 GitHub Issues。
+这类内容的价值，在于它不是抽象讨论，而是从工具作者和开发者视角，把 agent 工具链正在面对的真实问题讲出来。
+
+如果把 Agent 和自动化这组内容也收一下，不做额外拔高，大概能看到这么几条线。
+第一条，是 OpenClaw、Claude Code、Ollama cloud 这类基础运行环境和入口，正在被更紧地绑在一起。
+第二条，是 agent 工具链正在从“一个模型很强”转向“一个完整工作流能不能跑起来”，包括 provider 接入、账号切换、成本记录、session 管理和自动化框架。
+第三条，是视频、语音、世界模型、数字人这些内容，正在不断被吸进 agent 和自动化叙事里，边界已经没有以前那么清楚。
+第四条，是传播层的 KOL 会把研究结果包装成高张力叙事，这能快速扩散，但也要求后续整理时保留原文、分清楚哪些是发布本身，哪些是二次解读。
+
+最后做个总收束。
+如果只看这轮关注列表，不去强行下一个大结论，我觉得最值得保留的观察是：最近发生的事情，并不是某一个单点爆款，而是几条线同时在往前推。
+一条线是 open model 和 open ecosystem 继续扩张。
+一条线是 agent 化越来越明显，从模型宣传一路延伸到工具调用、工作流、系统状态和成本管理。
+还有一条线，是视频、语音、世界模型、数字人这些能力，正在不断进入 agent 相关的产品想象里。
+与此同时，政策、安全、公共叙事和高传播性 KOL 线程，也一直在旁边并行发生。
+
+这期先整理到这里。
+这版尽量保留了原始材料的信息密度，没有刻意压成一个非常短的摘要。
+后面如果你要，我可以继续把同一天的这批 X digest，再拆成更细的分组长音频，比如只讲 AI 和大模型，或者只讲 Agent 和自动化。
