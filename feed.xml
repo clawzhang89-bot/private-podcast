@@ -7,7 +7,7 @@
     <language>zh-cn</language>
     <description>把长文、新闻和研究材料转成能在播客 App 里慢慢听的中文音频。当前为 GitHub Pages 托管的可订阅测试 feed。</description>
     <generator>podcast-workflow + GitHub Pages</generator>
-    <lastBuildDate>Wed, 08 Apr 2026 09:17:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 09:26:15 GMT</lastBuildDate>
     <image>
       <url>https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg</url>
       <title>小宝财经慢听</title>
@@ -25,6 +25,21 @@
       <itunes:name>Evan</itunes:name>
       <itunes:email>zyayhj.yhj@gmail.com</itunes:email>
     </itunes:owner>
+    <item>
+      <title>Claude Managed Agents：Anthropic 正在把 Agent Harness 产品化（单人男声）</title>
+      <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-09-claude-managed-agents-single-male.mp3</link>
+      <description>基于 Lance Martin 转发的《Launching Claude Managed Agents》整理的一期单人男声中文播客，重点讲清托管 agent、长任务可靠性、memory filesystem 与 agent harness 产品化这几层含义。</description>
+      <content:encoded>基于 Lance Martin 转发的《Launching Claude Managed Agents》整理的一期单人男声中文播客，重点讲清托管 agent、长任务可靠性、memory filesystem 与 agent harness 产品化这几层含义。</content:encoded>
+      <itunes:author>Evan</itunes:author>
+      <itunes:summary>基于 Lance Martin 转发的《Launching Claude Managed Agents》整理的一期单人男声中文播客，重点讲清托管 agent、长任务可靠性、memory filesystem 与 agent harness 产品化这几层含义。</itunes:summary>
+      <itunes:image href="https://clawzhang89-bot.github.io/private-podcast/site/cover.jpg" />
+      <itunes:duration>10:24</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <pubDate>Thu, 09 Apr 2026 09:26:15 GMT</pubDate>
+      <guid isPermaLink="false">2026-04-09-claude-managed-agents-single-male</guid>
+      <enclosure url="https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-09-claude-managed-agents-single-male.mp3" length="4988973" type="audio/mpeg" />
+    </item>
     <item>
       <title>具身智能最近发生了什么：Embodied Digest 整理版（单人男声）</title>
       <link>https://clawzhang89-bot.github.io/private-podcast/episodes/2026-04-08-embodied-digest-single-male.mp3</link>
